@@ -1,0 +1,97 @@
+{
+  "status": "ok",
+  "totalResults": 7,
+  "articles": [
+    {
+      "source": {
+        "id": "nbc-news",
+        "name": "NBC News"
+      },
+      "author": "Mike Hixenbaugh, Jon Schuppe",
+      "title": "Thousands of unclaimed bodies sent to Texas medical school — 1,800 names released",
+      "description": "NBC News is publishing the names of over 1,800 unclaimed individuals sent to the University of North Texas Health Science Center to help families find answers.",
+      "url": "https://www.nbcnews.com/news/us-news/unclaimed-bodies-texas-medical-school-names-released-rcna173310",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-09/240930-University-North-Texas-Health-Science-Fort-Worth-04-zk-0303-73a581.jpg",
+      "publishedAt": "2024-10-02T09:00:00Z",
+      "content": "This article is part of Dealing the Dead, a series investigating the use of unclaimed bodies for medical research.\r\nFor five years, the unclaimed dead of Dallas and Tarrant counties were delivered to… [+1787 chars]"
+    },
+    {
+      "source": {
+        "id": "usa-today",
+        "name": "USA Today"
+      },
+      "author": "James Powel",
+      "title": "'Weird Science': Climate change takes center stage in VP debate after Helene disaster",
+      "description": "Ohio Sen. J.D. Vance called climate change \"weird science\" during an answer on Hurricane Helene during the vice presidential debate Tuesday.",
+      "url": "https://www.usatoday.com/story/news/politics/elections/2024/10/01/jd-vance-climate-change-weird-science-vp-debate/75471987007/",
+      "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/10/02/USAT/75476710007-usatsi-24377328.jpg?crop=4555,2563,x0,y504&width=3200&height=1801&format=pjpg&auto=webp",
+      "publishedAt": "2024-10-02T02:21:52+00:00",
+      "content": "Ohio Sen. JD Vance called climate change \"weird science\" during a question on the topic connected to Hurricane Helene during the vice presidential debate Tuesday night.\r\nVance, former President Donal… [+2124 chars]"
+    },
+    {
+      "source": {
+        "id": "medical-news-today",
+        "name": "Medical News Today"
+      },
+      "author": "MNT Editorial Team",
+      "title": "In Conversation podcast",
+      "description": "Medical News Today’s In Conversation podcast engages with expert voices across various fields. The conversations focus on a range of topics, from the latest news in science to the deepest scientific conundrums.",
+      "url": "https://www.medicalnewstoday.com/articles/in-conversation-podcast",
+      "urlToImage": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2021/06/in-conversation-generic-podcast-image-3000x3000-1-1200x628.jpg",
+      "publishedAt": "2024-10-01T21:37:16.3164899Z",
+      "content": "Medical News Todays In Conversation podcast engages with expert voices across various fields. The conversations focus on a range of topics, from the latest news in science to the deepest scientific c… [+22324 chars]"
+    },
+    {
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "author": null,
+      "title": "bigscience/T0pp · Hugging Face",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "url": "https://huggingface.co/bigscience/T0pp",
+      "urlToImage": "https://huggingface.co/front/thumbnails/v2-2.png",
+      "publishedAt": "2021-10-18T16:37:20.4140551Z",
+      "content": "Model Description\r\nT0* is a series of encoder-decoder models trained on a large set of different tasks specified in natural language prompts. We convert numerous English supervised datasets into prom… [+11344 chars]"
+    },
+    {
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "author": null,
+      "title": "Opening up a physics simulator for robotics",
+      "description": "As part of DeepMind's mission of advancing science, we have acquired the MuJoCo physics simulator and are making it freely available for everyone, to support research everywhere.",
+      "url": "https://deepmind.com/blog/announcements/mujoco",
+      "urlToImage": "https://lh3.googleusercontent.com/jVZ3VN7wwx2dSowqLmhqm0qAzAmcb-1t7ks3HiNnoHknihF5sl9VDEwuCNTSxfx8jFIi7mBQkvHUdnSKXSPgYLNpvCuE4YajJeMnrYA",
+      "publishedAt": "2021-10-18T16:07:20.4749314Z",
+      "content": "Advancing research everywhere with the acquisition of MuJoCo\r\nWhen you walk, your feet make contact with the ground. When you write, your fingers make contact with the pen. Physical contacts are what… [+1849 chars]"
+    },
+    {
+      "source": {
+        "id": "national-geographic",
+        "name": "National Geographic"
+      },
+      "author": "Nadia Drake",
+      "title": "How these feuding map-makers shaped our fascination with Mars",
+      "description": "One was an artist who loved space. His rival was a bold professional astronomer. Their race to map the red planet sparked decades of science and speculation.",
+      "url": "https://www.nationalgeographic.com/science/2021/02/how-feuding-map-makers-shaped-our-fascination-with-mars.html",
+      "urlToImage": "https://pmdvod.nationalgeographic.com/NG_Video/788/579/smpost_1612381336455.jpg",
+      "publishedAt": "2021-02-17T14:37:21.3706142Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "national-geographic",
+        "name": "National Geographic"
+      },
+      "author": null,
+      "title": "Episode 3: Why War Zones Need Science Too",
+      "description": "Undaunted by Yemen’s civil war, National Geographic explorer Ella Al-Shamahi searches on the island of Socotra for traces of the earliest known humans to leave Africa.",
+      "url": "https://www.nationalgeographic.com/podcasts/overheard/season-5/episode-3-why-war-zones-need-science.html",
+      "urlToImage": "https://www.nationalgeographic.com/content/dam/ngdotcom/rights-exempt/podcasts/Overheard/season5/episode3/nationalgeographic_2708459.jpg",
+      "publishedAt": "2021-02-17T14:37:20.2759318Z",
+      "content": null
+    }
+  ]
+}
