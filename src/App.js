@@ -15,7 +15,6 @@ export default class App extends Component {
       <>
         <Router>
           <Navbar />
-
           <Routes>
             <Route path='/' element={<Navigate to='/general' />} />
             <Route
