@@ -39,7 +39,7 @@ export class News extends Component {
   }
 
   async newsGetter() {
-    console.log('Page num in newsgetter', this.state.page);
+    this.props.setProgress(30);
     let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=2da52fff93a34298bccddfd61441af43&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({
       loading: true,
@@ -51,9 +51,11 @@ export class News extends Component {
       totalResults: parsedData.totalResults,
       loading: false,
     });
+    this.props.setProgress(100);
   }
 
   fetchMoreData = async () => {
+    this.props.setProgress(30);
     await this.setState(
       {
         page: this.state.page + 1,
@@ -71,10 +73,7 @@ export class News extends Component {
           totalResults: parsedData.totalResults,
           loading: false,
         });
-        console.log(
-          'Total Results after fetchMoreData: ',
-          this.state.articles.length
-        );
+        this.props.setProgress(100);
       }
     );
   };
@@ -82,7 +81,7 @@ export class News extends Component {
   render() {
     return (
       <div className='container my-3'>
-        <h2 className='h2 mb-4'>
+        <h2 className='h2 mb-4 text-center'>
           News Ground - Top {this.props.heading} Headlines
         </h2>
         <InfiniteScroll
@@ -92,7 +91,7 @@ export class News extends Component {
           loader={<Spinner />}
           scrollThreshold={1}
           style={{ overflow: 'hidden' }}
-          endMessage={<h2 className='h2 mt-4'>No More News</h2>}
+          endMessage={<h2 className='h2 mt-4 text-center'>No More News</h2>}
         >
           <div className='container'>
             <div className='my-3 row row-gap-3'>
@@ -113,7 +112,6 @@ export class News extends Component {
                   </div>
                 );
               })}
-              {/* {this.state.loading && <Spinner />} */}
             </div>
           </div>
         </InfiniteScroll>
